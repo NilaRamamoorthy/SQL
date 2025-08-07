@@ -1,5 +1,5 @@
 -- Drop and create database
-DROP DATABASE IF EXISTS food_delivery;
+
 CREATE DATABASE food_delivery;
 USE food_delivery;
 

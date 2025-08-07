@@ -1,5 +1,5 @@
 -- Drop and create database
-DROP DATABASE IF EXISTS medical_store_db;
+
 CREATE DATABASE medical_store_db;
 USE medical_store_db;
 

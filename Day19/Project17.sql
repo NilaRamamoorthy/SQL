@@ -1,5 +1,5 @@
 -- Drop and create database
-DROP DATABASE IF EXISTS job_portal_db;
+
 CREATE DATABASE job_portal_db;
 USE job_portal_db;
 

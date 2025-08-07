@@ -1,5 +1,5 @@
 -- Drop and create the database
-DROP DATABASE IF EXISTS airline_db;
+
 CREATE DATABASE airline_db;
 USE airline_db;
 

@@ -1,5 +1,5 @@
 -- Drop and create database
-DROP DATABASE IF EXISTS voting_db;
+
 CREATE DATABASE voting_db;
 USE voting_db;
 

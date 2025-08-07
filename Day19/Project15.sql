@@ -1,5 +1,5 @@
 -- Drop and create database
-DROP DATABASE IF EXISTS rental_db;
+
 CREATE DATABASE rental_db;
 USE rental_db;
 

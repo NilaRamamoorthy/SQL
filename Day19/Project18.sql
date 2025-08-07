@@ -162,8 +162,15 @@ GROUP BY s.student_id, s.full_name;
 
 -- Rank students by marks in Mathematics (subject_id=1)
 SELECT s.student_id, s.full_name, m.marks_obtained,
-       RANK() OVER (ORDER BY m.marks_obtained DESC) AS rank
+       (
+        SELECT COUNT(*) 
+        FROM marks m2 
+        WHERE m2.subject_id = m.subject_id 
+          AND m2.marks_obtained >= m.marks_obtained
+       ) AS rank
 FROM students s
 JOIN marks m ON s.student_id = m.student_id
 WHERE m.subject_id = 1
 ORDER BY rank;
+
+
