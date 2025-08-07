@@ -1,5 +1,3 @@
-
-
 -- Step 1: Create Database and Use It
 CREATE DATABASE IF NOT EXISTS MovieBooking;
 USE MovieBooking;
